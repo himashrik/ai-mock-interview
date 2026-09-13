@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-ink: 28 33 40;         /* #1c2128 -- primary text on light backgrounds */
+  --color-slate: 75 85 99;       /* #4b5563 -- secondary text */
+  --color-canvas: 247 247 245;   /* #f7f7f5 -- page background */
+  --color-surface: 255 255 255;  /* #ffffff -- card/panel background */
+  --color-border: 15 23 32;      /* used at low alpha for hairline borders */
+  --color-accent-soft: 228 237 233; /* #e4ede9 */
+}
+
+.dark {
+  --color-ink: 236 238 240;      /* near-white text on dark backgrounds */
+  --color-slate: 156 163 175;    /* lighter gray, still readable on dark */
+  --color-canvas: 15 18 22;      /* near-black page background */
+  --color-surface: 26 30 36;     /* slightly raised dark card background */
+  --color-border: 255 255 255;   /* used at low alpha for hairline borders */
+  --color-accent-soft: 27 41 36; /* darker, muted accent tint */
+}
+
+body {
+  @apply bg-canvas text-ink font-body transition-colors duration-200;
+}
+
+.card {
+  @apply bg-surface border border-border/10 rounded-lg p-6;
+}
+
+.btn-primary {
+  @apply bg-accent text-white px-5 py-2.5 rounded-md font-medium hover:bg-accent/90 transition-colors disabled:opacity-50 disabled:cursor-not-allowed;
+}
+
+.btn-secondary {
+  @apply border border-border/20 text-ink px-5 py-2.5 rounded-md font-medium hover:bg-ink/5 transition-colors;
+}
+
+.input {
+  @apply w-full border border-border/15 rounded-md px-3 py-2 bg-surface text-ink placeholder:text-slate/60 focus:outline-none focus:ring-2 focus:ring-accent/40 focus:border-accent;
+}
+
+.label {
+  @apply block text-sm text-slate mb-1.5;
+}
