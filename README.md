@@ -146,19 +146,6 @@ pytest
 
 This project is intended for educational and portfolio use. Add a license file if you plan to publish it publicly.
 
-## Portfolio summary
-
-This project demonstrates practical skills in:
-
-- Full-stack application development
-- FastAPI backend architecture
-- React frontend development
-- AI application design with retrieval-augmented generation
-- Vector search and embedding-based retrieval
-- Database design and user isolation
-- Resume parsing and document processing
-- Scoring systems and evaluation pipelines
-- End-to-end product building for real-world workflows
 
 ## Contributing
 
