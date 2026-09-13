@@ -1,8 +1,22 @@
 # AI Mock Interview Platform
 
-A full-stack AI interview preparation app that helps users upload their resume, optionally add a job description, and practice realistic mock interviews with adaptive questions, scoring, and actionable feedback.
+[![CI](https://github.com/himashrik/ai-mock-interview/actions/workflows/ci.yml/badge.svg)](https://github.com/himashrik/ai-mock-interview/actions/workflows/ci.yml)
 
-The platform is built around retrieval-augmented generation (RAG), so interview questions and evaluations are grounded in the user’s actual resume and job description instead of generic AI output.
+This project is a full-stack AI interview preparation platform built to help job seekers practice interviews with real, personalized feedback.
+
+Users upload their resume, optionally add a job description, and the app turns that information into a guided mock interview experience. Instead of generic AI questions, the app retrieves relevant context from the user’s actual resume and job requirements and uses that to generate adaptive interview questions, evaluate answers, and provide actionable improvement suggestions.
+
+This project combines AI, retrieval, scoring, and web application development into a complete product-like workflow that feels like a real interview coaching tool.
+
+## Why this project matters
+
+Most interview prep tools are either static question banks or generic chatbots. This project goes further by making the interview experience personalized:
+
+- it uses the candidate’s actual resume as input
+- it aligns questions to a target job role
+- it checks how well the candidate matches the role
+- it adapts difficulty and follow-up questions based on performance
+- it gives structured feedback instead of vague AI responses
 
 ## Features
 
@@ -133,6 +147,20 @@ pytest
 
 This project is intended for educational and portfolio use. Add a license file if you plan to publish it publicly.
 
+## Portfolio summary
+
+This project demonstrates practical skills in:
+
+- Full-stack application development
+- FastAPI backend architecture
+- React frontend development
+- AI application design with retrieval-augmented generation
+- Vector search and embedding-based retrieval
+- Database design and user isolation
+- Resume parsing and document processing
+- Scoring systems and evaluation pipelines
+- End-to-end product building for real-world workflows
+
 ## Contributing
 
 Pull requests and improvements are welcome. If you plan to extend the app, consider adding:
@@ -146,4 +174,12 @@ Pull requests and improvements are welcome. If you plan to extend the app, consi
 ## Status
 
 This project is a working AI interview assistant and portfolio-ready application with full-stack functionality, built to demonstrate practical use of generative AI, retrieval, scoring, and interview simulation.
+
+## Demo
+
+The app can run entirely in demo mode without external API keys, making it easy to showcase the full interview workflow locally. This is especially useful for portfolio demos, internal reviews, and early feature validation.
+
+## Project outcome
+
+The goal of this project is to turn resume-driven preparation into a guided, intelligent interview experience: upload a resume, match it against a target role, simulate interviews, evaluate responses, and provide structured next steps for improvement.
 
