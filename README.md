@@ -1,6 +1,5 @@
 # AI Mock Interview Platform
 
-[![CI](https://github.com/himashrik/ai-mock-interview/actions/workflows/ci.yml/badge.svg)](https://github.com/himashrik/ai-mock-interview/actions/workflows/ci.yml)
 
 This project is a full-stack AI interview preparation platform built to help job seekers practice interviews with real, personalized feedback.
 
